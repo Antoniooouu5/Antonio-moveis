@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -49,7 +48,6 @@ header{
 a{
     color:white;
 }
-/* font-family: 'Roboto', sans-serif; */
 .box{
     width: 60%;
     height: 50vh;
