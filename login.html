@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="author" content="Antonio">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Antonio móveis a melhor loja de móveis do Brasil!">
+    <meta property="og:title" content="Antonio móveis">
+    <meta property="og:site_name" content="Antonio móveis">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/817095915151163392/860236391014989870/unknown.png">
+    <title>Antonio móveis</title>
+</head>
+<body>
+    <header>
+               <div class="center">
+                   <div class="itens-menu">
+                       <a href="index.html"><p>Home</p></a>
+                       <a href="sobre.html"><p>Sobre</p></a>
+                       <a href="login.html"><p>Cadastro</p></a>
+                   </div>
+               </div>
+               <div class="center"><img src="img/antoniomoveis.png"></div>
+    </header>
+    <main>
+       <form>
+           <section>
+               <h2>Faça seu cadastro abaixo !</h2>
+               <input type="text" placeholder="Digite seu nome !" required maxlength="30" id="name">
+               <input type="email" placeholder="Digite seu e-mail !" required maxlength="30">
+               <input type="submit" value="Finalizar" id="acao" onclick="clicar()">
+           </section>
+       </form> 
+    </main>
+    <script>
+        
+
+        function clicar(){
+            
+        var pegarTexto = document.getElementById('name').value 
+        if(pegarTexto.length > 0){
+        alert(`Vc foi cadastrado ${pegarTexto}`)
+        console.log(`${pegarTexto}`)
+        }
+        else{
+            alert('Preencha os campos')
+        }}
+        
+    </script>
+</body>
+</html>
