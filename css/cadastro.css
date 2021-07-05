@@ -74,7 +74,7 @@ input{
     width: 80%;
     height: 30px;
     max-width: 600px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-size: 17px;
 }
 input[type="submit"]{
